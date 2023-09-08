@@ -1,0 +1,10 @@
+log:
+  name: mall
+  filename: logs/mall.log
+  debug: true
+testdata:
+  file: resource/testcase.xlsx
+report:
+  filename: reports/mall接口测试报告.html
+  description: mall商城
+

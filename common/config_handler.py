@@ -9,7 +9,6 @@ from configparser import ConfigParser
 import yaml
 from BeautifulReport import BeautifulReport
 
-
 def get_config(filename,encoding='utf-8') -> dict:
     #获取文件后缀名
     suffix = filename.split('.')[-1]
@@ -58,8 +57,4 @@ class Config:
 if __name__ == '__main__':
     ts = unittest.TestLoader().discover('testcases')
     br = BeautifulReport(ts)
-    # config = Config('../config.yaml')
-    # br.report(**config['report'])
-    # print(data)
-    # config = get_config('../config.yaml')
-    # print(config['log']['name'])
+

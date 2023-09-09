@@ -5,12 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3020517f-889c-4b61-a412-6695427d6e40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/testcases/test_login2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_login3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AA.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/HTMLTestRunnerNew.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/HTMLTestRunnerNew.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/config_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/handelmysql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/handle_sign.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/handleconfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/handleemail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/handleexcel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/handlemylog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/handlepath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/handlereplace.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/handlerequests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/myddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/myddt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/HTMLTestRunnerNew.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/HTMLTestRunnerNew.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/ddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/ddt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/mall.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/mall接口测试报告.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新增提交验证.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/mall接口测试报告.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/mall接口测试报告.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/Wtest_Abs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_login2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_login3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_register.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +62,7 @@
       <recent name="D:\repository\JKDemo\testcases" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.run_test">
     <configuration name="run_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="JKDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,9 +84,46 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="JKDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login.TestLogin.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="JKDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run_test" />
+        <item itemvalue="Python tests.Python tests for test_login.TestLogin.test_login" />
+        <item itemvalue="Python.settings" />
       </list>
     </recent_temporary>
   </component>

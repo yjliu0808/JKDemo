@@ -37,9 +37,9 @@ class TestLogin(unittest.TestCase):
         response = send_http_request(url=case['url'],
                                                    method=case['method'],
                                                    json=case['request_data'])
-        self.logger.debug('url:{}'.format(case['url']))
-        self.logger.debug('method:{}'.format(case['method']))
-        self.logger.debug('request_data:{}'.format(case['request_data']))
+        # self.logger.debug('url:{}'.format(case['url']))
+        # self.logger.debug('method:{}'.format(case['method']))
+        # self.logger.debug('request_data:{}'.format(case['request_data']))
         # 3、断言
         response_data = response.json()
         #  响应状态码断言

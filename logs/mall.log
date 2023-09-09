@@ -1,0 +1,216 @@
+2023-09-09 11:48:20,198 - test_login.py - line24 - > INFO : ====登录接口开始测试>>>>>>>>>>
+2023-09-09 11:48:20,199 - test_login.py - line31 - > INFO : 用例【验证登录成功：用户正确,密码正确】开始测试
+2023-09-09 11:48:20,663 - test_login.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:48:20,664 - test_login.py - line41 - > DEBUG : method:post
+2023-09-09 11:48:20,664 - test_login.py - line42 - > DEBUG : request_data:{'username': 'test', 'password': '123456'}
+2023-09-09 11:48:20,665 - test_login.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:48:20,665 - test_login.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:48:20,666 - test_login.py - line68 - > INFO : 用例【验证登录成功：用户正确,密码正确】结束测试
+2023-09-09 11:48:20,671 - test_login.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:48:20,672 - test_login.py - line31 - > INFO : 用例【验证登录失败：用户正确,密码错误】开始测试
+2023-09-09 11:48:21,076 - test_login.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:48:21,077 - test_login.py - line41 - > DEBUG : method:post
+2023-09-09 11:48:21,077 - test_login.py - line42 - > DEBUG : request_data:{'username': 'test', 'password': '1234567'}
+2023-09-09 11:48:21,077 - test_login.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:48:21,078 - test_login.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:48:21,078 - test_login.py - line68 - > INFO : 用例【验证登录失败：用户正确,密码错误】结束测试
+2023-09-09 11:48:21,079 - test_login.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:48:21,080 - test_login.py - line31 - > INFO : 用例【验证登录失败：用户错误,密码正确】开始测试
+2023-09-09 11:48:21,289 - test_login.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:48:21,289 - test_login.py - line41 - > DEBUG : method:post
+2023-09-09 11:48:21,289 - test_login.py - line42 - > DEBUG : request_data:{'username': 'test1', 'password': '123456'}
+2023-09-09 11:48:21,289 - test_login.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:48:21,289 - test_login.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:48:21,290 - test_login.py - line68 - > INFO : 用例【验证登录失败：用户错误,密码正确】结束测试
+2023-09-09 11:48:21,290 - test_login.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:48:21,290 - test_login.py - line31 - > INFO : 用例【验证登录失败：用户错误,密码错误】开始测试
+2023-09-09 11:48:21,474 - test_login.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:48:21,474 - test_login.py - line41 - > DEBUG : method:post
+2023-09-09 11:48:21,474 - test_login.py - line42 - > DEBUG : request_data:{'username': 'test1', 'password': '1234561'}
+2023-09-09 11:48:21,474 - test_login.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:48:21,474 - test_login.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:48:21,474 - test_login.py - line68 - > INFO : 用例【验证登录失败：用户错误,密码错误】结束测试
+2023-09-09 11:48:21,474 - test_login.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:48:21,475 - test_login2.py - line24 - > INFO : ====登录接口开始测试>>>>>>>>>>
+2023-09-09 11:48:21,475 - test_login2.py - line31 - > INFO : 用例【验证登录成功：用户正确,密码正确】开始测试
+2023-09-09 11:48:21,915 - test_login2.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:48:21,915 - test_login2.py - line41 - > DEBUG : method:post
+2023-09-09 11:48:21,915 - test_login2.py - line42 - > DEBUG : request_data:{'username': 'test', 'password': '123456'}
+2023-09-09 11:48:21,915 - test_login2.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:48:21,916 - test_login2.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:48:21,916 - test_login2.py - line68 - > INFO : 用例【验证登录成功：用户正确,密码正确】结束测试
+2023-09-09 11:48:21,916 - test_login2.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:48:21,916 - test_login2.py - line31 - > INFO : 用例【验证登录失败：用户正确,密码错误】开始测试
+2023-09-09 11:48:22,310 - test_login2.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:48:22,310 - test_login2.py - line41 - > DEBUG : method:post
+2023-09-09 11:48:22,310 - test_login2.py - line42 - > DEBUG : request_data:{'username': 'test', 'password': '1234567'}
+2023-09-09 11:48:22,310 - test_login2.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:48:22,310 - test_login2.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:48:22,310 - test_login2.py - line68 - > INFO : 用例【验证登录失败：用户正确,密码错误】结束测试
+2023-09-09 11:48:22,310 - test_login2.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:48:22,310 - test_login2.py - line31 - > INFO : 用例【验证登录失败：用户错误,密码正确】开始测试
+2023-09-09 11:48:22,494 - test_login2.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:48:22,494 - test_login2.py - line41 - > DEBUG : method:post
+2023-09-09 11:48:22,494 - test_login2.py - line42 - > DEBUG : request_data:{'username': 'test1', 'password': '123456'}
+2023-09-09 11:48:22,495 - test_login2.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:48:22,495 - test_login2.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:48:22,495 - test_login2.py - line68 - > INFO : 用例【验证登录失败：用户错误,密码正确】结束测试
+2023-09-09 11:48:22,496 - test_login2.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:48:22,496 - test_login2.py - line31 - > INFO : 用例【验证登录失败：用户错误,密码错误】开始测试
+2023-09-09 11:48:22,690 - test_login2.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:48:22,690 - test_login2.py - line41 - > DEBUG : method:post
+2023-09-09 11:48:22,691 - test_login2.py - line42 - > DEBUG : request_data:{'username': 'test1', 'password': '1234561'}
+2023-09-09 11:48:22,691 - test_login2.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:48:22,691 - test_login2.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:48:22,691 - test_login2.py - line68 - > INFO : 用例【验证登录失败：用户错误,密码错误】结束测试
+2023-09-09 11:48:22,691 - test_login2.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:48:22,691 - test_login3.py - line24 - > INFO : ====登录接口开始测试>>>>>>>>>>
+2023-09-09 11:48:22,691 - test_login3.py - line31 - > INFO : 用例【验证登录成功：用户正确,密码正确】开始测试
+2023-09-09 11:48:23,123 - test_login3.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:48:23,123 - test_login3.py - line41 - > DEBUG : method:post
+2023-09-09 11:48:23,123 - test_login3.py - line42 - > DEBUG : request_data:{'username': 'test', 'password': '123456'}
+2023-09-09 11:48:23,123 - test_login3.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:48:23,123 - test_login3.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:48:23,123 - test_login3.py - line68 - > INFO : 用例【验证登录成功：用户正确,密码正确】结束测试
+2023-09-09 11:48:23,124 - test_login3.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:48:23,124 - test_login3.py - line31 - > INFO : 用例【验证登录失败：用户正确,密码错误】开始测试
+2023-09-09 11:48:23,512 - test_login3.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:48:23,513 - test_login3.py - line41 - > DEBUG : method:post
+2023-09-09 11:48:23,513 - test_login3.py - line42 - > DEBUG : request_data:{'username': 'test', 'password': '1234567'}
+2023-09-09 11:48:23,514 - test_login3.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:48:23,514 - test_login3.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:48:23,514 - test_login3.py - line68 - > INFO : 用例【验证登录失败：用户正确,密码错误】结束测试
+2023-09-09 11:48:23,515 - test_login3.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:48:23,516 - test_login3.py - line31 - > INFO : 用例【验证登录失败：用户错误,密码正确】开始测试
+2023-09-09 11:48:23,716 - test_login3.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:48:23,717 - test_login3.py - line41 - > DEBUG : method:post
+2023-09-09 11:48:23,717 - test_login3.py - line42 - > DEBUG : request_data:{'username': 'test1', 'password': '123456'}
+2023-09-09 11:48:23,718 - test_login3.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:48:23,718 - test_login3.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:48:23,718 - test_login3.py - line68 - > INFO : 用例【验证登录失败：用户错误,密码正确】结束测试
+2023-09-09 11:48:23,719 - test_login3.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:48:23,719 - test_login3.py - line31 - > INFO : 用例【验证登录失败：用户错误,密码错误】开始测试
+2023-09-09 11:48:23,915 - test_login3.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:48:23,915 - test_login3.py - line41 - > DEBUG : method:post
+2023-09-09 11:48:23,915 - test_login3.py - line42 - > DEBUG : request_data:{'username': 'test1', 'password': '1234561'}
+2023-09-09 11:48:23,916 - test_login3.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:48:23,916 - test_login3.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:48:23,916 - test_login3.py - line68 - > INFO : 用例【验证登录失败：用户错误,密码错误】结束测试
+2023-09-09 11:48:23,916 - test_login3.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:48:23,916 - test_register.py - line25 - > INFO : ====添加用户接口开始测试>>>>>>>>>>
+2023-09-09 11:48:23,916 - test_register.py - line33 - > INFO : 用例【验证用户注册成功】开始测试
+2023-09-09 11:48:24,014 - test_register.py - line41 - > DEBUG : url:http://101.35.51.221:8099/admin/register
+2023-09-09 11:48:24,014 - test_register.py - line42 - > DEBUG : method:post
+2023-09-09 11:48:24,014 - test_register.py - line43 - > DEBUG : request_data:{'id': None, 'username': 'athena', 'password': '123456', 'nickName': 'athena', 'email': '123456@qq.com', 'note': '接口测试', 'status': 1}
+2023-09-09 11:48:24,014 - test_register.py - line54 - > INFO : 状态码断言成功！
+2023-09-09 11:48:24,014 - test_register.py - line67 - > INFO : 请求结果断言成功!
+2023-09-09 11:48:24,014 - test_register.py - line69 - > INFO : 用例【验证用户注册成功】结束测试
+2023-09-09 11:48:24,015 - test_register.py - line28 - > INFO : ====添加用户接口测试结束<<<<<<<<<<
+2023-09-09 11:51:11,046 - test_login.py - line24 - > INFO : ====登录接口开始测试>>>>>>>>>>
+2023-09-09 11:51:11,046 - test_login.py - line31 - > INFO : 用例【验证登录成功：用户正确,密码正确】开始测试
+2023-09-09 11:51:11,506 - test_login.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:51:11,507 - test_login.py - line41 - > DEBUG : method:post
+2023-09-09 11:51:11,508 - test_login.py - line42 - > DEBUG : request_data:{'username': 'test', 'password': '123456'}
+2023-09-09 11:51:11,509 - test_login.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:51:11,509 - test_login.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:51:11,510 - test_login.py - line68 - > INFO : 用例【验证登录成功：用户正确,密码正确】结束测试
+2023-09-09 11:51:11,512 - test_login.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:51:11,513 - test_login.py - line31 - > INFO : 用例【验证登录失败：用户正确,密码错误】开始测试
+2023-09-09 11:51:11,923 - test_login.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:51:11,923 - test_login.py - line41 - > DEBUG : method:post
+2023-09-09 11:51:11,923 - test_login.py - line42 - > DEBUG : request_data:{'username': 'test', 'password': '1234567'}
+2023-09-09 11:51:11,924 - test_login.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:51:11,924 - test_login.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:51:11,925 - test_login.py - line68 - > INFO : 用例【验证登录失败：用户正确,密码错误】结束测试
+2023-09-09 11:51:11,925 - test_login.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:51:11,926 - test_login.py - line31 - > INFO : 用例【验证登录失败：用户错误,密码正确】开始测试
+2023-09-09 11:51:12,119 - test_login.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:51:12,120 - test_login.py - line41 - > DEBUG : method:post
+2023-09-09 11:51:12,121 - test_login.py - line42 - > DEBUG : request_data:{'username': 'test1', 'password': '123456'}
+2023-09-09 11:51:12,122 - test_login.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:51:12,123 - test_login.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:51:12,124 - test_login.py - line68 - > INFO : 用例【验证登录失败：用户错误,密码正确】结束测试
+2023-09-09 11:51:12,125 - test_login.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:51:12,126 - test_login.py - line31 - > INFO : 用例【验证登录失败：用户错误,密码错误】开始测试
+2023-09-09 11:51:12,335 - test_login.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:51:12,336 - test_login.py - line41 - > DEBUG : method:post
+2023-09-09 11:51:12,337 - test_login.py - line42 - > DEBUG : request_data:{'username': 'test1', 'password': '1234561'}
+2023-09-09 11:51:12,337 - test_login.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:51:12,338 - test_login.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:51:12,339 - test_login.py - line68 - > INFO : 用例【验证登录失败：用户错误,密码错误】结束测试
+2023-09-09 11:51:12,341 - test_login.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:51:12,342 - test_login2.py - line24 - > INFO : ====登录接口开始测试>>>>>>>>>>
+2023-09-09 11:51:12,351 - test_login2.py - line31 - > INFO : 用例【验证登录成功：用户正确,密码正确】开始测试
+2023-09-09 11:51:12,798 - test_login2.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:51:12,799 - test_login2.py - line41 - > DEBUG : method:post
+2023-09-09 11:51:12,800 - test_login2.py - line42 - > DEBUG : request_data:{'username': 'test', 'password': '123456'}
+2023-09-09 11:51:12,801 - test_login2.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:51:12,801 - test_login2.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:51:12,802 - test_login2.py - line68 - > INFO : 用例【验证登录成功：用户正确,密码正确】结束测试
+2023-09-09 11:51:12,804 - test_login2.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:51:12,805 - test_login2.py - line31 - > INFO : 用例【验证登录失败：用户正确,密码错误】开始测试
+2023-09-09 11:51:13,214 - test_login2.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:51:13,214 - test_login2.py - line41 - > DEBUG : method:post
+2023-09-09 11:51:13,215 - test_login2.py - line42 - > DEBUG : request_data:{'username': 'test', 'password': '1234567'}
+2023-09-09 11:51:13,215 - test_login2.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:51:13,215 - test_login2.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:51:13,216 - test_login2.py - line68 - > INFO : 用例【验证登录失败：用户正确,密码错误】结束测试
+2023-09-09 11:51:13,216 - test_login2.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:51:13,217 - test_login2.py - line31 - > INFO : 用例【验证登录失败：用户错误,密码正确】开始测试
+2023-09-09 11:51:13,459 - test_login2.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:51:13,459 - test_login2.py - line41 - > DEBUG : method:post
+2023-09-09 11:51:13,460 - test_login2.py - line42 - > DEBUG : request_data:{'username': 'test1', 'password': '123456'}
+2023-09-09 11:51:13,461 - test_login2.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:51:13,461 - test_login2.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:51:13,462 - test_login2.py - line68 - > INFO : 用例【验证登录失败：用户错误,密码正确】结束测试
+2023-09-09 11:51:13,463 - test_login2.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:51:13,464 - test_login2.py - line31 - > INFO : 用例【验证登录失败：用户错误,密码错误】开始测试
+2023-09-09 11:51:13,673 - test_login2.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:51:13,674 - test_login2.py - line41 - > DEBUG : method:post
+2023-09-09 11:51:13,675 - test_login2.py - line42 - > DEBUG : request_data:{'username': 'test1', 'password': '1234561'}
+2023-09-09 11:51:13,676 - test_login2.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:51:13,677 - test_login2.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:51:13,679 - test_login2.py - line68 - > INFO : 用例【验证登录失败：用户错误,密码错误】结束测试
+2023-09-09 11:51:13,680 - test_login2.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:51:13,681 - test_login3.py - line24 - > INFO : ====登录接口开始测试>>>>>>>>>>
+2023-09-09 11:51:13,682 - test_login3.py - line31 - > INFO : 用例【验证登录成功：用户正确,密码正确】开始测试
+2023-09-09 11:51:14,134 - test_login3.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:51:14,135 - test_login3.py - line41 - > DEBUG : method:post
+2023-09-09 11:51:14,135 - test_login3.py - line42 - > DEBUG : request_data:{'username': 'test', 'password': '123456'}
+2023-09-09 11:51:14,136 - test_login3.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:51:14,137 - test_login3.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:51:14,138 - test_login3.py - line68 - > INFO : 用例【验证登录成功：用户正确,密码正确】结束测试
+2023-09-09 11:51:14,139 - test_login3.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:51:14,140 - test_login3.py - line31 - > INFO : 用例【验证登录失败：用户正确,密码错误】开始测试
+2023-09-09 11:51:14,541 - test_login3.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:51:14,541 - test_login3.py - line41 - > DEBUG : method:post
+2023-09-09 11:51:14,542 - test_login3.py - line42 - > DEBUG : request_data:{'username': 'test', 'password': '1234567'}
+2023-09-09 11:51:14,543 - test_login3.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:51:14,544 - test_login3.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:51:14,544 - test_login3.py - line68 - > INFO : 用例【验证登录失败：用户正确,密码错误】结束测试
+2023-09-09 11:51:14,546 - test_login3.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:51:14,547 - test_login3.py - line31 - > INFO : 用例【验证登录失败：用户错误,密码正确】开始测试
+2023-09-09 11:51:14,749 - test_login3.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:51:14,749 - test_login3.py - line41 - > DEBUG : method:post
+2023-09-09 11:51:14,750 - test_login3.py - line42 - > DEBUG : request_data:{'username': 'test1', 'password': '123456'}
+2023-09-09 11:51:14,750 - test_login3.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:51:14,750 - test_login3.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:51:14,750 - test_login3.py - line68 - > INFO : 用例【验证登录失败：用户错误,密码正确】结束测试
+2023-09-09 11:51:14,751 - test_login3.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:51:14,751 - test_login3.py - line31 - > INFO : 用例【验证登录失败：用户错误,密码错误】开始测试
+2023-09-09 11:51:14,945 - test_login3.py - line40 - > DEBUG : url:http://101.35.51.221:8099/admin/login
+2023-09-09 11:51:14,945 - test_login3.py - line41 - > DEBUG : method:post
+2023-09-09 11:51:14,945 - test_login3.py - line42 - > DEBUG : request_data:{'username': 'test1', 'password': '1234561'}
+2023-09-09 11:51:14,946 - test_login3.py - line53 - > INFO : 状态码断言成功！
+2023-09-09 11:51:14,946 - test_login3.py - line66 - > INFO : 请求结果断言成功!
+2023-09-09 11:51:14,947 - test_login3.py - line68 - > INFO : 用例【验证登录失败：用户错误,密码错误】结束测试
+2023-09-09 11:51:14,947 - test_login3.py - line27 - > INFO : ====登录接口测试结束<<<<<<<<<<
+2023-09-09 11:51:14,947 - test_register.py - line25 - > INFO : ====添加用户接口开始测试>>>>>>>>>>
+2023-09-09 11:51:14,948 - test_register.py - line33 - > INFO : 用例【验证用户注册成功】开始测试
+2023-09-09 11:51:15,044 - test_register.py - line41 - > DEBUG : url:http://101.35.51.221:8099/admin/register
+2023-09-09 11:51:15,045 - test_register.py - line42 - > DEBUG : method:post
+2023-09-09 11:51:15,045 - test_register.py - line43 - > DEBUG : request_data:{'id': None, 'username': 'athena', 'password': '123456', 'nickName': 'athena', 'email': '123456@qq.com', 'note': '接口测试', 'status': 1}
+2023-09-09 11:51:15,045 - test_register.py - line54 - > INFO : 状态码断言成功！
+2023-09-09 11:51:15,046 - test_register.py - line67 - > INFO : 请求结果断言成功!
+2023-09-09 11:51:15,046 - test_register.py - line69 - > INFO : 用例【验证用户注册成功】结束测试
+2023-09-09 11:51:15,046 - test_register.py - line28 - > INFO : ====添加用户接口测试结束<<<<<<<<<<

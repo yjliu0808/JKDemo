@@ -16,6 +16,6 @@ __pycache__/
 .vscode/
 .idea/
 
-common/
-reports/
-logs/
+common/*
+reports/*
+logs/*

@@ -7,6 +7,7 @@
     <list default="true" id="3020517f-889c-4b61-a412-6695427d6e40" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/testcases/test_login2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testcases/test_login3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/mall.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/mall接口测试报告.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/新增提交验证.txt" beforeDir="false" />

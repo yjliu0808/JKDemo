@@ -19,7 +19,7 @@ TEST_DATA_FILE = os.path.join(BASE_DIR,'resource/testcase.xlsx')
 
 REPORT_CONFIG = {
     'description':'mall商城',
-    'filename':'reports/mall接口测试报告.html'
+    'filename':'reports/mall.html'
 }
 if __name__ == '__main__':
     print(BASE_DIR)

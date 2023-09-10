@@ -7,7 +7,7 @@ Time : 2023/8/20 13:15
 import  unittest
 
 import settings
-from common.HTMLTestRunnerNew import HTMLTestRunner
+
 from BeautifulReport import BeautifulReport
 
 if __name__ == '__main__':

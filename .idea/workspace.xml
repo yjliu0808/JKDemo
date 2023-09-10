@@ -6,32 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3020517f-889c-4b61-a412-6695427d6e40" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AA.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/HTMLTestRunnerNew.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/HTMLTestRunnerNew.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/config_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/handelmysql.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/handle_sign.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/handleconfig.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/handleemail.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/handleexcel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/handlemylog.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/handlepath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/handlereplace.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/handlerequests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/myddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/myddt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/HTMLTestRunnerNew.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/HTMLTestRunnerNew.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/ddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/ddt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mall.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mall.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mall.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/mall接口测试报告.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/mall接口测试报告.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/Wtest_Abs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/test_login2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/test_login3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/test_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_register.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +25,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/repository/JKDemo/testcases"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/repository/JKDemo/testcases&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\repository\JKDemo\testcases" />

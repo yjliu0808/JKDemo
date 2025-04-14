@@ -16,4 +16,4 @@ python 接口自动化项目【mall】实战：
 
 \- 日志文件存放的目录：logs
 
-\- 项目的启动文件：run_test.py
+\- 项目的启动文件：run_test.py  =
